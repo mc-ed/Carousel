@@ -112,7 +112,7 @@ class App extends React.Component {
 
   getPrices() {
     Axios.get(
-      `http://ec2-18-188-213-241.us-east-2.compute.amazonaws.com/prices/all`,
+      `http://ec2-18-223-44-5.us-east-2.compute.amazonaws.com/prices/all`,
       { withCredentials: true }
     )
       .then(allPrices => {
@@ -147,7 +147,7 @@ class App extends React.Component {
 
   getReviews() {
     Axios.get(
-      `http://ec2-18-225-6-113.us-east-2.compute.amazonaws.com/api/stats/all`,
+      `http://ec2-13-59-164-4.us-east-2.compute.amazonaws.com/api/stats/all`,
       { withCredentials: true }
     )
       .then(allReviews => {
